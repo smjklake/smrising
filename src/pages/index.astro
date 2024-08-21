@@ -14,10 +14,33 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         <Header title={SITE_TITLE} />
         <main>
             <h1>Hello</h1>
-            <p>
-                My name is Spencer Jones and this is my digital contact card and blog.
-            </p>
+            <article>
+                <img
+                    src="/profile-pic.jpg"
+                    width="250px"
+                    alt="A man with short, dark, wavy hair and a beard is looking at the camera. He is wearing a gray shirt and standing against a plain background."
+                />
+                <p>
+                    My name is Spencer Jones and this is my digital contact card
+                    and blog. I am a Father, Husband, and Developer in Arizona.
+                    I was in the US Air Force for a large portion of my life as
+                    a Jet Engine Mechanic and have transitioned into Software
+                    Development after separating. I enjoy running, cycling, and
+                    rock climbing as well as exploring technology. I am a
+                    motivated lifelong learner and eager to share what I've
+                    learned.
+                </p>
+            </article>
         </main>
         <Footer />
+        <style>
+            article {
+                display: flex;
+            }
+            article > img {
+                align-self: center;
+                padding-right: 1.5em;
+            }
+        </style>
     </body>
 </html>
