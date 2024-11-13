@@ -1,7 +1,7 @@
 ---
 title: 'First post'
 description: 'First ever blog post'
-pubDate: 'Dec 19 2024'
+pubDate: 'Dec 19 2023'
 heroImage: '/west-wing-sunrise.jpg'
 ---
 
